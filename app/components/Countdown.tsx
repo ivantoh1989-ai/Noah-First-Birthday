@@ -101,12 +101,15 @@ export default function Countdown() {
         py-16
         bg-[#355E3B]
         text-white
+        overflow-hidden
       "
     >
 
       <div
         className="
-          container
+          max-w-6xl
+          mx-auto
+          px-6
           text-center
         "
       >
@@ -141,25 +144,27 @@ export default function Countdown() {
 
           <h2
             className="
-              text-4xl
-              md:text-5xl
-              mt-4
-              mb-10
+               text-4xl
+               md:text-6xl
+               mt-6
+               mb-16
+               font-semibold
             "
           >
-            Noah's Big Day 🦁
+            Noah's 1st Birthday 🐍
           </h2>
 
 
 
           <div
             className="
-              grid
-              grid-cols-2
-              md:grid-cols-4
-              gap-5
-              max-w-4xl
-              mx-auto
+                 grid
+                 grid-cols-2
+                 md:grid-cols-4
+                 gap-6
+                 md:gap-8
+                 max-w-5xl
+                 mx-auto
             "
           >
 
@@ -172,15 +177,22 @@ export default function Countdown() {
                   bg-white/10
                   backdrop-blur
                   rounded-3xl
-                  p-6
+                  px-6
+                  py-8
+                  min-h-[140px]
+                  flex
+                  flex-col
+                  justify-center
+                  items-center
                 "
               >
 
                 <div
                   className="
-                    text-4xl
-                    md:text-5xl
+                    text-5xl
+                    md:text-6xl
                     font-bold
+                    leading-none
                     text-[#F6F1E9]
                   "
                 >
