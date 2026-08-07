@@ -28,6 +28,7 @@ export default function Venue() {
 
   return (
     <section
+      id="venue"
       className="
         section
         bg-[#FFFDF8]
