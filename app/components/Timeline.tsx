@@ -149,6 +149,7 @@ export default function Timeline() {
                 safari-card
                 text-center
               "
+              ></motion.div>
               <div
                 className="
                   mb-6
@@ -157,16 +158,6 @@ export default function Timeline() {
                 "
               >
               
-              <Image
-                src={item.image}
-                alt={item.month}
-                width={500}
-                height={500}
-                className="
-                  w-full
-                  h-80
-                  object-cover
-              />
               
               </div>
               "
@@ -176,17 +167,22 @@ export default function Timeline() {
 
               <div
                 className="
-                  aspect-square
-                  rounded-2xl
-                  bg-[#FFFDF8]
-                  flex
-                  items-center
-                  justify-center
-                  text-6xl
-                  mb-6
+                     mb-6
+                  overflow-hidden
+                  rounded-3xl
                 "
               >
-                📷
+                  <Image
+                src={item.image}
+                alt={item.month}
+                width={500}
+                height={500}
+                className="
+                  w-full
+                  h-80
+                  object-cover
+                "
+              />
               </div>
 
 
