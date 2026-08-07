@@ -149,7 +149,7 @@ export default function Timeline() {
                 safari-card
                 text-center
               "
-              ></motion.div>
+              >
               <div
                 className="
                   mb-6
@@ -157,22 +157,8 @@ export default function Timeline() {
                   rounded-3xl
                 "
               >
-              
-              
-              </div>
-              "
-            >
-
-              {/* Photo Placeholder */}
-
-              <div
-                className="
-                     mb-6
-                  overflow-hidden
-                  rounded-3xl
-                "
-              >
-                  <Image
+                
+               <Image
                 src={item.image}
                 alt={item.month}
                 width={500}
@@ -216,6 +202,5 @@ export default function Timeline() {
 
       </div>
 
-    </section>
   );
 }
