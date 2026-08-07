@@ -1,0 +1,211 @@
+@import "tailwindcss";
+
+/* ================================
+   Noah's Safari Birthday Theme
+   ================================ */
+
+:root {
+  --forest-green: #355e3b;
+  --sage-green: #a7b89d;
+  --sand: #f6f1e9;
+  --cream: #fffdf8;
+  --gold: #c49a4a;
+  --brown: #8b6a4e;
+  --dark-text: #2d2d2d;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+  background: var(--cream);
+  color: var(--dark-text);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-playfair), serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ================================
+   Safari Background Elements
+   ================================ */
+
+.safari-gradient {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(246, 241, 233, 0.95),
+      rgba(167, 184, 157, 0.35)
+    );
+}
+
+.jungle-pattern {
+  background-image:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(53, 94, 59, 0.08),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 80% 30%,
+      rgba(196, 154, 74, 0.08),
+      transparent 25%
+    );
+}
+
+/* ================================
+   Buttons
+   ================================ */
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  border-radius: 999px;
+  background: var(--forest-green);
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: var(--gold);
+  transform: translateY(-3px);
+}
+
+/* ================================
+   Animations
+   ================================ */
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes sway {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.float-animation {
+  animation: float 4s ease-in-out infinite;
+}
+
+.sway-animation {
+  animation: sway 4s ease-in-out infinite;
+}
+
+.fade-up {
+  animation: fadeUp 1s ease forwards;
+}
+
+/* ================================
+   Cards
+   ================================ */
+
+.safari-card {
+  background: white;
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow:
+    0 10px 30px rgba(53, 94, 59, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.safari-card:hover {
+  transform: translateY(-8px);
+}
+
+/* ================================
+   Image Styling
+   ================================ */
+
+.rounded-photo {
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ================================
+   Section Layout
+   ================================ */
+
+.section {
+  padding: 80px 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ================================
+   Mobile Optimization
+   ================================ */
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 16px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
