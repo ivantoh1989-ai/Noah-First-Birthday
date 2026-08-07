@@ -6,6 +6,7 @@ import { ChevronDown } from "lucide-react";
 export default function Hero() {
   return (
     <section
+      id="home"
       className="
         relative
         min-h-screen
