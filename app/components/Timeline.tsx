@@ -148,6 +148,27 @@ export default function Timeline() {
               className="
                 safari-card
                 text-center
+              <div
+                className="
+                  mb-6
+                  overflow-hidden
+                  rounded-3xl
+                "
+              >
+              
+              <Image
+                src={item.image}
+                alt={item.month}
+                width={500}
+                height={500}
+                className="
+                  w-full
+                  h-80
+                  object-cover
+                "
+              />
+              
+              </div>
               "
             >
 
