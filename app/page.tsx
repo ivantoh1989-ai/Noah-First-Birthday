@@ -12,10 +12,13 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main>
+
+      <Navbar />
+
       <Hero />
-      
+
       <Countdown />
-      
+
       <Welcome />
 
       <Timeline />
@@ -29,6 +32,7 @@ export default function Home() {
       <Itinerary />
 
       <Footer />
+
     </main>
   );
 }
