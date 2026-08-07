@@ -11,46 +11,57 @@ const months = [
   {
     month: "2 Months",
     caption: "Those tiny smiles started appearing 😊",
+    image: "/images/noah/month02.jpg",
   },
   {
     month: "3 Months",
     caption: "Discovering the world around me 🌿",
+    image: "/images/noah/month03.jpg",
   },
   {
     month: "4 Months",
     caption: "Growing stronger every day 💪",
+    image: "/images/noah/month04.jpg",
   },
   {
     month: "5 Months",
     caption: "More smiles, more laughter ✨",
+    image: "/images/noah/month05.jpg",
   },
   {
     month: "6 Months",
     caption: "Halfway to ONE! 🎉",
+    image: "/images/noah/month06.jpg",
   },
   {
     month: "7 Months",
     caption: "Little explorer on the move 🦒",
+    image: "/images/noah/month07.jpg",
   },
   {
     month: "8 Months",
     caption: "Curious about everything 🌱",
+    image: "/images/noah/month08.jpg",
   },
   {
     month: "9 Months",
     caption: "New adventures every day 🐘",
+    image: "/images/noah/month09.jpg",
   },
   {
     month: "10 Months",
     caption: "Almost ready for my big day 🎂",
+    image: "/images/noah/month10.jpg",
   },
   {
     month: "11 Months",
     caption: "Counting down to ONE! 🦁",
+    image: "/images/noah/month11.jpg",
   },
   {
     month: "12 Months",
     caption: "I am ONE! Happy Birthday 🎈",
+    image: "/images/noah/month12.jpg",
   },
 ];
 
