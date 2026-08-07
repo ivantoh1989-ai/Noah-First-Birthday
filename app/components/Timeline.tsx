@@ -148,6 +148,7 @@ export default function Timeline() {
               className="
                 safari-card
                 text-center
+              "
               <div
                 className="
                   mb-6
@@ -165,7 +166,6 @@ export default function Timeline() {
                   w-full
                   h-80
                   object-cover
-                "
               />
               
               </div>
