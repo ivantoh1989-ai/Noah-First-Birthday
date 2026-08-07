@@ -40,6 +40,7 @@ export default function Gallery() {
 
   return (
     <section
+      id="gallery"
       className="
         section
         bg-[#FFFDF8]
