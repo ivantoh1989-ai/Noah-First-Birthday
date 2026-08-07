@@ -55,6 +55,7 @@ export default function Itinerary() {
 
   return (
     <section
+      id="itinerary"
       className="
         section
         bg-[#F6F1E9]
