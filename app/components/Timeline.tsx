@@ -1,11 +1,12 @@
 "use client";
-
 import { motion } from "framer-motion";
+import Image from "public/image";
 
 const months = [
   {
     month: "1 Month",
     caption: "Welcome to the world, little one ❤️",
+    image: "/images/noah/month01.heic",
   },
   {
     month: "2 Months",
