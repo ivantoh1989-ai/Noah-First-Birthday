@@ -116,12 +116,12 @@ export default function Footer() {
 
           <p
             className="
+              pt-24
               max-w-xl
               mx-auto
               text-white/80
               text-lg
               leading-relaxed
-              pt-24
             "
           >
             Your love, blessings, and presence mean
@@ -149,9 +149,9 @@ export default function Footer() {
 
             <p
               className="
-                text-xl
+              pt-36  
+              text-xl
                 font-medium
-                pt-36
               "
             >
               Emily Ang & Toh Ivan
@@ -168,10 +168,10 @@ export default function Footer() {
 
           <p
             className="
+              pt-24
               mt-10
               text-sm
               text-white/60
-              pt-24
             "
           >
             © 2026 Noah's First Birthday Celebration
