@@ -63,7 +63,9 @@ export default function Footer() {
 
       <div
         className="
-          container
+          max-w-6xl
+          mx-auto
+          px-6
           relative
           z-10
           text-center
