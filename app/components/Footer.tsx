@@ -16,7 +16,7 @@ export default function Footer() {
         overflow-hidden
         bg-[#355E3B]
         text-white
-        py-20
+        py-28
       "
     >
 
@@ -106,7 +106,7 @@ export default function Footer() {
 
           <h2
             className="
-               max-w-4xl
+               max-w-3xl
                 mx-auto
                 text-4xl
                 md:text-5xl
@@ -131,10 +131,8 @@ export default function Footer() {
               leading-relaxed
             "
           >
-            Your love, blessings, and presence mean
-            the world to our family.
-            We can't wait to celebrate this special
-            milestone together.
+            Your love, blessings, and presence mean the world to our family.
+            We can't wait to celebrate this special milestone together.
           </p>
 
 
@@ -155,10 +153,9 @@ export default function Footer() {
             />
 
             <p
-              className="
-              mt-10  
+              className=" 
               text-xl
-                font-medium
+              font-medium
               "
             >
               Emily Ang & Toh Ivan
