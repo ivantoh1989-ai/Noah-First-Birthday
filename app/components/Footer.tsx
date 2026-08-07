@@ -26,7 +26,8 @@ export default function Footer() {
         className="
           absolute
           top-10
-          left-10
+          left-6
+          md:left-12
           text-[#A7B89D]
         "
         animate={{
@@ -45,7 +46,8 @@ export default function Footer() {
         className="
           absolute
           bottom-10
-          right-10
+          right-6
+          md:right-12
           text-[#C49A4A]
         "
         animate={{
@@ -104,9 +106,12 @@ export default function Footer() {
 
           <h2
             className="
-              text-4xl
-              md:text-5xl
-              mb-6
+               max-w-4xl
+                mx-auto
+                text-4xl
+                md:text-5xl
+                mb-6
+                leading-tight
             "
           >
             Thank You For Being
@@ -119,7 +124,7 @@ export default function Footer() {
           <p
             className="
               mt-12
-              max-w-xl
+              max-w-2xl
               mx-auto
               text-white/80
               text-lg
