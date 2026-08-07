@@ -58,6 +58,7 @@ export default function Timeline() {
 
   return (
     <section
+      id="timeline"
       className="
         section
         bg-[#F6F1E9]
