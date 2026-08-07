@@ -116,7 +116,7 @@ export default function Footer() {
 
           <p
             className="
-              pt-24
+              mt-12
               max-w-xl
               mx-auto
               text-white/80
@@ -149,7 +149,7 @@ export default function Footer() {
 
             <p
               className="
-              pt-36  
+              mt-10  
               text-xl
                 font-medium
               "
@@ -168,8 +168,7 @@ export default function Footer() {
 
           <p
             className="
-              pt-24
-              mt-10
+              mt-12
               text-sm
               text-white/60
             "
