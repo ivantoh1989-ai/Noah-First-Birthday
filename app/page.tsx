@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar";
 import Countdown from "./components/Countdown";
 import Hero from "./components/Hero";
 import Welcome from "./components/Welcome";
